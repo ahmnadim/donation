@@ -38,6 +38,5 @@
    ```bash
    npm run start:dev
    ```
-   **and that's it. project should be up and running.
-   **
+   **and that's it. project should be up and running.**
    **HAPPY TESTING**
