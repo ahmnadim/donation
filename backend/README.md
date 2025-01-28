@@ -11,20 +11,33 @@
 
 0. **Environment**
    Rename the .env.example to .env
+   Replace **username** and **password** with your postgresql username and password.
 
 1. **Install Dependencies**  
    Open a terminal in the project root directory and install the required dependencies:
 
    ```bash
    npm install
-
    ```
 
 2. **Config prisma**
-   Run **npx prisma migrate dev** in the terminal to migrate database.
-   Run **npm run prisma:seed** in the termial to run seeder.
+   Run the following commad in the terminal to migrate database.
+
+   ```bash
+   npx prisma migrate dev
+   ```
+
+   Run the following command in the termial to run seeder.
+
+   ```bash
+   npm run prisma:seed
+   ```
 
 3. **RUN the app**
-   CD into project root and RUN **npm run start:dev** Command and that's it. project should be up and running.
-
-**HAPPY TESTING**
+   CD into project root and RUN the following Command
+   ```bash
+   npm run start:dev
+   ```
+   **and that's it. project should be up and running.
+   **
+   **HAPPY TESTING**
